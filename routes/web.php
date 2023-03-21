@@ -4,6 +4,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers;
+use Illuminate\Routing\Route as RoutingRoute;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes

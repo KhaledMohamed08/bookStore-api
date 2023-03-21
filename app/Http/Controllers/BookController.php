@@ -51,7 +51,8 @@ class BookController extends Controller
      */
     public function show(Book $book)
     {
-        //
+        $books=Book::find($id);
+        return new BookResource($books);
     }
 
     /**
